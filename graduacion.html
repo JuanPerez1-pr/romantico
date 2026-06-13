@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi niña... ✨🎓</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="graduacion.css">
+</head>
+<body>
+
+    <button id="btn-musica" class="btn-musica" aria-label="Reproducir música">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+    </button>
+    <audio id="audio-fondo" loop>
+        <source src="Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3" type="audio/mpeg">
+    </audio>
+
+    <canvas id="universo-canvas"></canvas>
+
+    <div class="aurora-container">
+        <div class="aurora aurora-1"></div>
+        <div class="aurora aurora-2"></div>
+        <div class="aurora aurora-3"></div>
+    </div>
+
+    <div id="pantalla-inicio">
+        <div class="intro-content">
+            <svg class="heart-draw" viewBox="0 0 512 512" width="100" height="100">
+                <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="none" stroke="var(--oro)" stroke-width="15"/>
+            </svg>
+            <p class="intro-text">Toca la pantalla para descubrir tu regalo...</p>
+        </div>
+    </div>
+
+    <main class="escena-3d">
+        <article class="carta-premium" id="carta">
+            <div class="glare" id="glare"></div>
+            
+            <div class="contenido-texto">
+                <h1 class="reveal titulo-magico">Para mi niña... <span class="emoji-flotante">🌙✨</span></h1>
+                
+                <div class="divisor-svg reveal">
+                    <svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0,5 Q50,0 100,5" stroke="var(--oro)" stroke-width="0.5" fill="none"/></svg>
+                </div>
+
+                <p class="reveal">Mi vida, ahora mismo estás dormidita y, mientras tú duermes, no he podido evitar ponerme a escribir esto, sobre todo sabiendo el peso que por fin te has quitado de encima.</p>
+
+                <p class="reveal">Ayer, 12 de junio, fue tu gran día. <span class="highlight-oro">¡POR FIN TE GRADUASTE DE LA ESO!</span> Aunque me da mucha pena no haber podido estar allí físicamente para verte brillar (aunque siempre brillas y hasta me lo dejas muy claro jajajaj), poder aplaudirte hasta que me duelan las manos y darte el abrazo más apretado del mundo, necesito que sepas que no he dejado de pensar en ti ni un solo segundo.</p>
+
+                <p class="reveal">Las personas que te vieron recoger ese diploma vieron tu sonrisa, tu alivio, tu felicidad. Pero yo sé que es más que eso y por eso mi orgullo hoy es infinitamente mayor.</p> 
+
+                <p class="reveal">He visto cómo te has esforzado cada segundo, he estado ahí cuando el agobio te comía por dentro, cuando sentías que la cabeza no te daba para más. He visto la frustración en tus ojos y he sentido contigo cada lágrima que derramaste cuando la presión parecía aplastarte. Sé perfectamente las veces que llegaste a dudar de ti misma, los momentos en los que creías que no ibas a ser capaz y las noches en las que el cansancio te ganaba la batalla.</p>
+
+                <div class="cita-destacada reveal">
+                    Quiero que sepas que cada una de esas lágrimas, cada momento de estrés y cada gota de sudor han valido la pena. No te rendiste cuando todo se te ponía cuesta arriba y lo más fácil era tirar la toalla; tú sacaste esa fuerza de donde no la había y seguiste adelante. Eres una grande, amor.
+                </div>
+
+                <p class="reveal">Ese título no es solo un papel, mi amor. Es la prueba física de tu valentía, de tu resistencia y de lo inmensamente fuerte que eres (más que yo, imagínate jajaja). Te lo has ganado, mi amor, a pulso, sufriendo, peleando y demostrándote a ti misma de lo que eres capaz.</p>
+
+                <p class="reveal">Me fascina la mujer en la que te estás convirtiendo. Me inspiras con tu capacidad de superación y me hace sentir el chico más afortunado del mundo poder acompañarte, aunque a veces tenga que ser a través de una pantalla (me jode mucho la verdad, pero qué le hacemos), o también en una llamada en la que te quedas dormida de puro agotamiento.</p>
+
+                <p class="reveal">Sigue durmiendo, mi niña. Descansa, que te lo has ganado más que nadie en este mundo. Solo quería asegurarme de que, cuando abras los ojitos y leas esto, lo primero que sientas sea el orgullo que siento yo por ti.</p>
+
+                <h2 class="campeona reveal">
+                    <span class="brillo-texto">¡¡¡ERES MI CAMPEONA!!!</span><br>
+                    <span class="sub-campeona">ESTOY DESEANDO VERTE PARA COMERTE A BESOS Y CELEBRAR ESTO COMO TE LO MERECES.</span>
+                </h2>
+
+                <div class="firma-contenedor reveal">
+                    <p class="firma-texto">Te amo con toda mi alma, felices sueños, mi amor, y feliz graduación. ❤️🎓, con todo su cariño tu negrito.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="graduacion.js"></script>
+</body>
+</html>
